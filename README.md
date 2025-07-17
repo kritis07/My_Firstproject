@@ -1,30 +1,33 @@
 # my_project
 ML Project - Online Cheating Detection System
-Description:
 
-Developed a real-time intelligent monitoring system to detect suspicious behaviors during online exams or meetings using a webcam feed.
+**Description:**
 
-Implemented detection modules for:
+-Developed a real-time intelligent monitoring system to detect suspicious behaviors during online exams or meetings using a webcam feed.
 
-Head movement using Optical Flow (Lucas-Kanade).
+-Implemented detection modules for:
 
-Eye gaze tracking and look-away detection with MediaPipe facial landmarks.
+-Head movement using Optical Flow (Lucas-Kanade).
 
-Hand-over-eye gestures using hand-to-eye Euclidean distance.
+-Eye gaze tracking and look-away detection with MediaPipe facial landmarks.
 
-Mobile phone detection using a custom-trained YOLOv8 object detection model (8,400+ images).
+-Hand-over-eye gestures using hand-to-eye Euclidean distance.
 
-Designed a Tkinter-based GUI to allow user interaction and control.
+-Mobile phone detection using a custom-trained YOLOv8 object detection model (8,400+ images).
 
-Alert system integrated using PyAutoGUI to notify when cheating/distraction events are triggered.
+-Designed a Tkinter-based GUI to allow user interaction and control.
 
-Engineered for continuous video frame analysis with cooldown periods for realistic, low-false-positive detection.
+-Alert system integrated using PyAutoGUI to notify when cheating/distraction events are triggered.
 
-Achievements:
+-Engineered for continuous video frame analysis with cooldown periods for realistic, low-false-positive detection.
 
-Successfully detects distractions like using phones, looking away, or covering eyes in real-time.
+**Achievements:**
 
-Applicable to e-learning, remote work, and driver monitoring systems.
+-Successfully detects distractions like using phones, looking away, or covering eyes in real-time.
 
-Provides a base for future features like emotion detection, multi-user tracking, and edge device deployment.
+-Applicable to e-learning, remote work, and driver monitoring systems.
+
+-Provides a base for future features like emotion detection, multi-user tracking, and edge device deployment.
+
+
 Link for used image dataset in yolo model: https://www.kaggle.com/datasets/a165079/cellphoneobjectdetectionusingyolov7
