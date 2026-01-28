@@ -1,0 +1,5 @@
+path: C:\Users\HP\OneDrive\Desktop\MLCheating\MLCheating\Car-Person Custom-Object-Detection-v2-Roboflow
+train: C:\Users\HP\OneDrive\Desktop\MLCheating\MLCheating\Car-Person Custom-Object-Detection-v2-Roboflow\train\images
+val: C:\Users\HP\OneDrive\Desktop\MLCheating\MLCheating\Car-Person Custom-Object-Detection-v2-Roboflow\valid\images
+nc: 1
+names: ['Mobile_phone']
